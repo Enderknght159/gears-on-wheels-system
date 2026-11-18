@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#f6f6f3">
+<title>Gears on Wheels — مستندات محمية</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#f6f6f3;--ink:#111;--muted:#6d6d69;--line:#dcdcd6;--purple:#7546f0;
+    --grad:linear-gradient(90deg,#8e50f9,#b44cbb 16%,#d8486f 33%,#ee4b3e 48%,#f0902f 62%,#e9c93c 76%,#a9cd52 88%,#41b56e);
+    --ar:"Alexandria","Segoe UI",sans-serif;--en:"Poppins","Segoe UI",sans-serif;
+    --ease:cubic-bezier(.2,.75,.25,1)}
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--ar);-webkit-font-smoothing:antialiased;
+    display:grid;place-items:center;padding:28px 20px;position:relative;overflow:hidden}
+  body::before{content:"";position:fixed;inset-block-start:0;inset-inline:0;height:3px;background:var(--grad);z-index:3}
+  .aura{position:fixed;border-radius:50%;filter:blur(60px);pointer-events:none;z-index:0}
+  .a1{width:min(60vw,680px);aspect-ratio:1;inset-block-start:-18%;inset-inline-start:-8%;
+    background:radial-gradient(circle,rgba(142,80,249,.16),transparent 68%);animation:drift 24s ease-in-out infinite alternate}
+  .a2{width:min(50vw,520px);aspect-ratio:1;inset-block-end:-22%;inset-inline-end:-6%;
+    background:radial-gradient(circle,rgba(240,138,44,.13),transparent 68%);animation:drift 30s ease-in-out infinite alternate-reverse}
+  @keyframes drift{from{transform:translate3d(0,0,0) scale(1)}to{transform:translate3d(3%,-4%,0) scale(1.08)}}
+  .card{position:relative;z-index:2;width:min(460px,100%);background:#fff;border-radius:24px;
+    padding:40px 34px 28px;box-shadow:0 40px 90px -60px rgba(17,17,17,.55),0 1px 0 rgba(17,17,17,.04);
+    animation:in .7s var(--ease) both}
+  @keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .wordmark{text-align:center;font-family:var(--en);direction:ltr;font-weight:600;font-size:1rem;
+    letter-spacing:-.02em;margin-bottom:20px}
+  .wordmark i{font-style:normal;color:var(--purple)}
+  .kick{font-family:var(--en);font-size:.62rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--purple);text-align:center;direction:ltr}
+  h1{font-size:1.18rem;font-weight:700;text-align:center;margin:10px 0 6px;letter-spacing:-.01em}
+  .sub{font-size:.79rem;color:var(--muted);text-align:center;line-height:1.8;margin:0 0 6px}
+  .links{display:grid;gap:10px;margin-top:24px}
+  .link{display:flex;align-items:center;gap:14px;background:var(--bg);border:1px solid var(--line);border-radius:14px;
+    padding:15px 16px;text-decoration:none;color:var(--ink);transition:.3s var(--ease)}
+  .link:hover{border-color:var(--purple);background:#fff;transform:translateY(-2px);box-shadow:0 18px 40px -32px rgba(0,0,0,.35)}
+  .link .ic{width:36px;height:36px;border-radius:10px;background:#fff;display:grid;place-items:center;color:var(--purple);flex:0 0 36px}
+  .link b{display:block;font-size:.88rem;font-weight:600}
+  .link small{display:block;font-size:.68rem;color:var(--muted);margin-top:1px}
+  .link .go{margin-inline-start:auto;color:#9a9a95}
+  .foot{margin-top:24px;padding-top:14px;border-top:1px solid var(--line);display:flex;align-items:center;
+    justify-content:space-between;gap:10px;font-family:var(--en);font-size:.6rem;letter-spacing:.14em;
+    text-transform:uppercase;color:#9a9a95}
+  .foot svg{width:11px;height:11px}
+  @media (max-height:620px){body{align-items:start;padding-top:36px}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="aura a1"></div><div class="aura a2"></div>
+<main class="card">
+  <div class="wordmark">Gears<i>·</i>on<i>·</i>Wheels</div>
+  <div class="kick">Private links</div>
+  <h1 style="margin-top:10px">مستندان محميان</h1>
+  <p class="sub">كل رابط يطلب كلمة مرور قبل العرض.</p>
+  <div class="links">
+    <a class="link" href="system.html">
+      <span class="ic"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span>
+      <span><b>النظام</b><small>العرض التفاعلي — 15 شريحة</small></span>
+      <span class="go">‹</span>
+    </a>
+    <a class="link" href="pricing.html">
+      <span class="ic"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6"/></svg></span>
+      <span><b>الفاتورة</b><small>عرض السعر — مستند محمي</small></span>
+      <span class="go">‹</span>
+    </a>
+  </div>
+  <div class="foot"><span>Gears on Wheels</span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+  </div>
+</main>
+</body>
+</html>
